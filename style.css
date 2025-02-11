@@ -63,7 +63,7 @@ nav ul {
 
 .imgbox img {
     width: 0px;
-  
+
     transition: width 1s ease-in-out;
 }
 
@@ -85,27 +85,27 @@ nav ul {
 
 
 #reset {
-    background-color:#96b798; 
-    color: #FFFFFF; 
+    background-color:#96b798;
+    color: #FFFFFF;
     border: none;
-    border-radius: 8px; 
+    border-radius: 8px;
     padding: 10px 15px;
-    /* margin: 2vw; */
+
     font-size: 20px;
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  
+
   #reset:hover {
-    background-color: #a4bba4; 
+    background-color: #a4bba4;
     font-size: 22px;
   }
   .info{
     color: rgb(22, 74, 69);
     text-decoration: underline  ;
     margin: 10%;
-    /* height: ; */
-    
+    height: ;
+
   }
 
   .line{
@@ -119,3 +119,74 @@ nav ul {
   h2{
     color: rgb(152, 82, 82);
   }
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    nav {
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .gamecontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        grid-template-columns: repeat(3, 22vw);
+        grid-template-rows: repeat(3, 22vw);
+    }
+
+    .box {
+        font-size: 10vw;
+    }
+
+    #reset {
+/* background: #000; */
+        font-size: 16px;
+        padding: 10px;
+        margin-top: 15px;
+        margin-left:35vw ;
+    }
+.gameInfo h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    .info {
+        margin-top: 10px;
+        background-color: #ffdede;
+
+        font-size: 23px;
+        text-align: center;
+        margin-left: 0;
+        /* margin: 7% 0; */
+    }
+
+    h2 {
+        font-size: 18px;
+        text-align: center;
+
+    }
+    .imgbox{
+        margin-top: 20px;
+        margin-left: 20%;
+    }
+}
+
+
+
+
+
+
+
+
